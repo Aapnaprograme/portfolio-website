@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pot.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <title>Aura | Premium Footwear</title>
+</head>
+<body>
+   
+  <header class="navbar">
+    <div class="logo">Chanchal<span>.</span></div>
+
+    <nav class="menu">
+      <a href="#">New In</a>
+      <a href="#">Bestsellers</a>
+      <a href="#">Weekend Boot</a>
+      <a href="#">Terra Clog</a>
+      <a href="#">Shop All</a>
+      <a href="#">Values</a>
+    </nav>
+
+    <div class="nav-icons">
+  <!-- Region selector dropdown -->
+  <div class="region-selector">
+    <span class="region-info">CAD $ | Canada</span>
+    <select id="region-select">
+      <option value="CAD">CAD $ | Canada</option>
+      <option value="USD">USD $ | USA</option>
+      <option value="EUR">EUR € | Europe</option>
+      <option value="INR">₹ | India</option>
+    </select>
+  </div>
+
+  <!-- Search button -->
+  <button class="icon-btn" id="search-btn">
+    <i class="fa-solid fa-magnifying-glass"></i>
+  </button>
+  <input type="text" id="search-input" placeholder="Search..." style="display:none;">
+
+  <!-- User login button -->
+  <button class="icon-btn" id="user-btn">
+    <i class="fa-regular fa-user"></i>
+  </button>
+
+  <!-- Cart button -->
+  <button class="icon-btn cart-btn" id="cart-btn">
+    <i class="fa-solid fa-cart-shopping"></i>
+    <span class="cart-count" id="cart-count">0</span>
+  </button>
+</div>
+
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <span class="badge">Limited Time Only</span>
+        <h1>Our Summer Sale Is Finally Here!</h1>
+        <p>Enjoy <strong>20% off</strong> sitewide on all your favorites.</p>
+        <button class="cta-btn">SHOP NOW</button>
+      </div>
+    </section>
+
+    <section class="collection container">
+      <div class="section-header">
+        <h2>Featured Collection</h2>
+        <a href="#" class="view-all">View All</a>
+      </div>
+
+      <div class="products-grid">
+        <div class="product-card">
+          <div class="img-container">
+            <img src="Instagram.jpg" alt="Terra Boot">
+            <button class="quick-add">Quick Add +</button>
+          </div>
+          <h3>Terra Boot</h3>
+          <p class="price">₹4,999</p>
+        </div>
+
+        <div class="product-card">
+          <div class="img-container">
+            <img src="wik.jpg" alt="Weekend Boot">
+            <button class="quick-add">Quick Add +</button>
+          </div>
+          <h3>Weekend Boot</h3>
+          <p class="price">₹5,499</p>
+        </div>
+
+        <div class="product-card">
+          <div class="img-container">
+            <img src="sle.jpg" alt="Urban Clog">
+            <button class="quick-add">Quick Add +</button>
+          </div>
+          <h3>Urban Clog</h3>
+          <p class="price">₹3,999</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="categories">
+      <div class="category-card">
+        <img src="ow.jpg" alt="Boots">
+        <div class="category-overlay">
+          <h2>Boots</h2>
+          <a href="#" class="shop-link">Shop Now</a>
+        </div>
+      </div>
+
+      <div class="category-card">
+        <img src="ol.jpg" alt="Clogs">
+        <div class="category-overlay">
+          <h2>Clogs</h2>
+          <a href="#" class="shop-link">Shop Now</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="bestseller-banner container">
+      <div class="bestseller-text">
+        <span class="tag">Top Rated</span>
+        <h2>Bestsellers</h2>
+        <p>Our most loved styles, designed for everyday comfort and durability. Join over 50,000+ happy customers.</p>
+        <a href="#" class="btn-outline">Shop Bestsellers</a>
+      </div>
+      <div class="bestseller-image">
+        <img src="delhi.jpg" alt="Bestseller Style">
+      </div>
+    </section>
+  </main>
+<section class="newsletter">
+    <div class="newsletter-content">
+        <h2>Join the Aura Club</h2>
+        <p>Subscribe to receive updates, access to exclusive deals, and more.</p>
+        <form class="newsletter-form">
+            <input type="email" placeholder="Enter your email" required>
+            <button type="submit">SUBSCRIBE</button>
+        </form>
+    </div>
+</section>
+  <footer class="footer">
+    <div class="footer-grid container">
+      <div class="footer-brand">
+        <h2>YESUS</h2>
+        <p>Footwear designed with purpose, comfort, and sustainability in mind. Step into the future.</p>
+        <div class="social-icons">
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-twitter"></i>
+        </div>
+      </div>
+
+      <div class="footer-links-group">
+        <h4>Shop</h4>
+        <a href="#">New In</a>
+        <a href="#">Bestsellers</a>
+        <a href="#">Shop All</a>
+      </div>
+
+      <div class="footer-links-group">
+        <h4>About</h4>
+        <a href="#">Our Story</a>
+        <a href="#">Values</a>
+        <a href="#">Sustainability</a>
+      </div>
+
+      <div class="footer-links-group">
+        <h4>Support</h4>
+        <a href="#">Contact</a>
+        <a href="#">Shipping</a>
+        <a href="#">Returns</a>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2026 Chanchal Rajput. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="pot.js"></script>
+</body>
+</html>
